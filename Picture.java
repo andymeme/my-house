@@ -64,6 +64,7 @@ public class Picture
         suelito.makeVisible();
         
         sun.slowMoveVertical(-40);
+        
     }
 
     /**
@@ -93,4 +94,17 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
+     
+    
+    /**
+     * Change this picture to use color display
+     */
+    public void atardecer()
+    {
+        sun.slowMoveVertical(150);
+        
+        
+        
+        
+}
 }
